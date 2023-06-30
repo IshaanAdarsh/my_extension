@@ -18,7 +18,7 @@
 
 1. Clone the repository:
    ```
-   git clone https://github.com/IshaanAdarsh/Postgres-extension-tutorial/tree/main/Code/my_extension
+   git clone https://github.com/IshaanAdarsh/my_extension.git
    ```
 
 2. Change to the extension directory:
@@ -40,7 +40,7 @@
 ## Usage
 
 ### Creating a custom table
-Table is created when the extension is Created automatically with an auto-incrementing `id` column and a `name` column.
+Table `my_table` is created when the extension is Created automatically with an auto-incrementing `id` column and a `name` column.
 
 ### Adding two numbers
 To add two numbers using the `add` function, execute the following SQL query:
