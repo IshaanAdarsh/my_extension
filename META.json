@@ -6,17 +6,31 @@
   "maintainer": [
     "Ishaan Adarsh <ishaanad9@gmail.com>"
   ],
-  "license": "postgresql",
+  "license": "PostgreSQL",
   "provides": {
     "my_extension": {
+      "abstract": "A Basic PostgreSQL Extension",
       "file": "my_extension--1.0.1.sql",
       "docfile": "doc/my_extension.md",
       "version": "1.0.1"
     }
   },
+  "repository": {
+        "url":  "git://github.com/IshaanAdarsh/my_extension.git",
+        "web":  "https://github.com/IshaanAdarsh/my_extension/",
+        "type": "git"
+  },
   "generated_by": "Ishaan Adarsh",
   "meta-spec": {
     "version": "1.0.0",
     "url": "https://pgxn.org/meta/spec.txt"
-  }
+  },
+  "tags": [
+    "PostgreSQL",
+    "extension",
+    "data",
+    "calculation",
+    "utility"
+  ]
 }
+
